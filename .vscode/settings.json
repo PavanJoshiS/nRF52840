@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "type_traits": "c",
+        "nrf52840_bitfields.h": "c",
+        "nrf52840.h": "c"
+    },
+    "cortex-debug.variableUseNaturalFormat": false,
+    "editor.formatOnSave": true
+}

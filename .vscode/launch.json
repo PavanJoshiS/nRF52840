@@ -1,0 +1,19 @@
+{
+    "env": {
+        "SDK_ROOT": "/opt/nRF5_SDK_17.0.2",
+    },
+    "configurations": [
+        {
+            "name": "jlink",
+            "cwd": "${workspaceRoot}",
+            "executable": "${workspaceRoot}/_build/build.elf",
+            "request": "launch",
+            "type": "cortex-debug",
+            "servertype": "jlink",
+            "device": "nrf52",
+            "interface": "swd",
+            "preLaunchTask": "build",
+            "svdFile": "${SDK_ROOT}/modules/nrfx/mdk/nrf52840.svd"
+        },
+    ]
+}

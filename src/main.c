@@ -38,6 +38,7 @@ int blink_init(unsigned int pin_led)
 	NRF_RTC0->TASKS_START = 1;
 	return 0;
 }
+
 int main(void)
 {
 	uart_init(PIN_UART_TX);

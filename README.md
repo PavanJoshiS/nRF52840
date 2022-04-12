@@ -15,7 +15,7 @@ The setup has been tested on Arch Linux and should work on other Linux distribut
  - Linux only: Install `clang-format` from your distribution's repositories
  - Install Visual Studio Code
  - Install the `Cortex-Debug`, `Clang-Format` and `Serial Monitor 2` extensions from the Visual Studio Code marketplace
- - Clone this repository: `git clone https://github.com/geissdoerfer/nrf52-template`
+ - Clone this repository: `git clone https://github.com/geissdoerfer/nrf52-vscode`
  - Start VSCode and open the folder where you cloned the code via `File->Open Folder...`
  - Change the `SDK_ROOT` and `GNU_INSTALL_ROOT` variables in `.vscode/tasks.json`, `.vscode/launch.json` and `.vscode/c_cpp_properties.json` to the paths where you installed the SDK and toolchain
  - In Visual Studio Code, press `Ctrl`+`Shift`+`p`, type `Open Keyboard Shortcuts` and press `Enter`, insert the following keybindings and save the file:

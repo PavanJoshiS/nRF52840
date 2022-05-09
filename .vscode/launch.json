@@ -1,7 +1,4 @@
 {
-    "env": {
-        "SDK_ROOT": "/opt/nRF5_SDK_17.0.2",
-    },
     "configurations": [
         {
             "name": "jlink",
@@ -13,7 +10,8 @@
             "device": "nrf52",
             "interface": "swd",
             "preLaunchTask": "build",
-            "svdFile": "${SDK_ROOT}/modules/nrfx/mdk/nrf52840.svd"
+            "svdFile": "${config:SDK_ROOT}/modules/nrfx/mdk/nrf52840.svd",
+            "cortex-debug.gdbPath": "${config:GDB_PATH}"
         },
     ]
 }

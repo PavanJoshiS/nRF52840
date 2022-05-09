@@ -1,8 +1,8 @@
 {
     "options": {
         "env": {
-            "GNU_INSTALL_ROOT": "/usr/bin/",
-            "SDK_ROOT": "/opt/nRF5_SDK_17.0.2"
+            "GNU_INSTALL_ROOT": "${config:GNU_INSTALL_ROOT}",
+            "SDK_ROOT": "${config:SDK_ROOT}"
         }
     },
     "tasks": [

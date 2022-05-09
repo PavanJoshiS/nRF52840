@@ -1,23 +1,19 @@
 {
-    "env": {
-        "SDK_ROOT": "/opt/nRF5_SDK_17.0.2",
-        "GNU_INSTALL_ROOT": "/usr/bin/"
-    },
     "configurations": [
         {
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/include",
-                "${SDK_ROOT}/",
-                "${SDK_ROOT}/modules/nrfx/",
-                "${SDK_ROOT}/modules/nrfx/hal",
-                "${SDK_ROOT}/integration/nrfx",
-                "${SDK_ROOT}/modules/nrfx/mdk",
-                "${SDK_ROOT}/components/libraries/delay",
-                "${SDK_ROOT}/components/libraries/util",
-                "${SDK_ROOT}/components/drivers_nrf/nrf_soc_nosd",
-                "${SDK_ROOT}/components/toolchain/cmsis/include",
-                "${SDK_ROOT}/config/nrf52840/config"
+                "${config:SDK_ROOT}/",
+                "${config:SDK_ROOT}/modules/nrfx/",
+                "${config:SDK_ROOT}/modules/nrfx/hal",
+                "${config:SDK_ROOT}/integration/nrfx",
+                "${config:SDK_ROOT}/modules/nrfx/mdk",
+                "${config:SDK_ROOT}/components/libraries/delay",
+                "${config:SDK_ROOT}/components/libraries/util",
+                "${config:SDK_ROOT}/components/drivers_nrf/nrf_soc_nosd",
+                "${config:SDK_ROOT}/components/toolchain/cmsis/include",
+                "${config:SDK_ROOT}/config/nrf52840/config"
             ],
             "defines": [
                 "mcpu=cortex-m4",
@@ -432,7 +428,7 @@
                 "__ATOMIC_ACQ_REL=4",
                 "__ATOMIC_RELEASE=3"
             ],
-            "compilerPath": "${GNU_INSTALL_ROOT}/arm-none-eabi-gcc",
+            "compilerPath": "${config:GNU_INSTALL_ROOT}/arm-none-eabi-gcc",
             "intelliSenseMode": "gcc-arm",
             "cStandard": "c17",
             "cppStandard": "c++14"

@@ -10,8 +10,7 @@
             "device": "nrf52",
             "interface": "swd",
             "preLaunchTask": "build",
-            "svdFile": "${config:SDK_ROOT}/modules/nrfx/mdk/nrf52840.svd",
-            "cortex-debug.gdbPath": "${config:GDB_PATH}"
+            "svdFile": "${config:sdkRoot}/modules/nrfx/mdk/nrf52840.svd",
         },
     ]
 }

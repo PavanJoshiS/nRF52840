@@ -4,16 +4,16 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/include",
-                "${config:SDK_ROOT}/",
-                "${config:SDK_ROOT}/modules/nrfx/",
-                "${config:SDK_ROOT}/modules/nrfx/hal",
-                "${config:SDK_ROOT}/integration/nrfx",
-                "${config:SDK_ROOT}/modules/nrfx/mdk",
-                "${config:SDK_ROOT}/components/libraries/delay",
-                "${config:SDK_ROOT}/components/libraries/util",
-                "${config:SDK_ROOT}/components/drivers_nrf/nrf_soc_nosd",
-                "${config:SDK_ROOT}/components/toolchain/cmsis/include",
-                "${config:SDK_ROOT}/config/nrf52840/config"
+                "${config:sdkRoot}/",
+                "${config:sdkRoot}/modules/nrfx/",
+                "${config:sdkRoot}/modules/nrfx/hal",
+                "${config:sdkRoot}/integration/nrfx",
+                "${config:sdkRoot}/modules/nrfx/mdk",
+                "${config:sdkRoot}/components/libraries/delay",
+                "${config:sdkRoot}/components/libraries/util",
+                "${config:sdkRoot}/components/drivers_nrf/nrf_soc_nosd",
+                "${config:sdkRoot}/components/toolchain/cmsis/include",
+                "${config:sdkRoot}/config/nrf52840/config"
             ],
             "defines": [
                 "mcpu=cortex-m4",
@@ -428,7 +428,7 @@
                 "__ATOMIC_ACQ_REL=4",
                 "__ATOMIC_RELEASE=3"
             ],
-            "compilerPath": "${config:GNU_INSTALL_ROOT}/arm-none-eabi-gcc",
+            "compilerPath": "${config:gnuInstallRoot}/arm-none-eabi-gcc",
             "intelliSenseMode": "gcc-arm",
             "cStandard": "c17",
             "cppStandard": "c++14"

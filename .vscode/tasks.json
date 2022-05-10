@@ -1,8 +1,9 @@
 {
+    "version": "2.0.0",
     "options": {
         "env": {
-            "GNU_INSTALL_ROOT": "${config:GNU_INSTALL_ROOT}",
-            "SDK_ROOT": "${config:SDK_ROOT}"
+            "GNU_INSTALL_ROOT": "${config:gnuInstallRoot}",
+            "SDK_ROOT": "${config:sdkRoot}"
         }
     },
     "tasks": [

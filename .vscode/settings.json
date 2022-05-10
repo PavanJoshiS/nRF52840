@@ -1,7 +1,7 @@
 {
-    "SDK_ROOT": "/opt/nRF5_SDK_17.0.2",
-    "GNU_INSTALL_ROOT": "/usr/bin/",
-    "GDB_PATH": "/usr/bin/gdb",
+    "sdkRoot": "/opt/nRF5_SDK_17.0.2",
+    "gnuInstallRoot": "/usr/bin/",
+    "cortex-debug.gdbPath": "/usr/bin/gdb-multiarch",
     "files.associations": {
         "type_traits": "c",
         "nrf52840_bitfields.h": "c",

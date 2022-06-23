@@ -1,7 +1,7 @@
 {
     "configurations": [
         {
-            "name": "Linux",
+            "name": "${opersys}",
             "includePath": [
                 "${workspaceFolder}/include",
                 "${config:sdkRoot}/",

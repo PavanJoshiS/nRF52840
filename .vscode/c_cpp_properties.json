@@ -1,7 +1,6 @@
 {
     "configurations": [
         {
-            "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/include",
                 "${config:sdkRoot}/",
@@ -9,6 +8,7 @@
                 "${config:sdkRoot}/modules/nrfx/hal",
                 "${config:sdkRoot}/integration/nrfx",
                 "${config:sdkRoot}/modules/nrfx/mdk",
+                "${config:sdkRoot}/modules/nrfx/drivers/src",
                 "${config:sdkRoot}/components/libraries/delay",
                 "${config:sdkRoot}/components/libraries/util",
                 "${config:sdkRoot}/components/drivers_nrf/nrf_soc_nosd",

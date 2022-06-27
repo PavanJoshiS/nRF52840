@@ -10,8 +10,9 @@ The setup has been tested on Arch Linux and should work on other Linux distribut
 
  - If you don't have it yet, install `make` from your distribution's repository (`build-essential`)
  - Install the `GNU Arm Embedded Toolchain` from your distribution's repository (`arm-none-eabi-gcc`) or from [the official website](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm/downloads)
+ - Install the `SEGGER Software` by downloading and running the installer from [the official website](https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack)
  - Install the [nRF-Command-Line-Tools](https://www.nordicsemi.com/Software-and-tools/Development-Tools/nRF-Command-Line-Tools/Download) following the official instructions
- - Download and extract the [nRF5 SDK](https://www.nordicsemi.com/Software-and-tools/Software/nRF5-SDK/Download) (you don't need a SoftDevice) to a path on your machine
+ - Download and extract the [nRF5 SDK](https://www.nordicsemi.com/Software-and-tools/Software/nRF5-SDK/Download) (you don't need a SoftDevice) to a path on your machine.
  - Linux only: Install `clang-format` from your distribution's repositories
  - Install Visual Studio Code
  - Install the `Cortex-Debug`, `Clang-Format` and `Serial Monitor 2` extensions from the Visual Studio Code marketplace

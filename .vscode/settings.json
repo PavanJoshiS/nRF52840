@@ -1,11 +1,11 @@
 {
-    "opersys": "Win32",
-    "sdkRoot": "C:/Users/nRF5_SDK",
+    "sdkRoot": "C:/Users/nRF5_SDK/",
     "gnuInstallRoot": "C:/Program Files (x86)/GNU Arm Embedded Toolchain/102021/bin/",
     "files.associations": {
         "type_traits": "c",
         "nrf52840_bitfields.h": "c",
-        "nrf52840.h": "c"
+        "nrf52840.h": "c",
+        "nrf_gpio.h": "c"
     },
     "cortex-debug.variableUseNaturalFormat": false,
     "editor.formatOnSave": true
